@@ -1,0 +1,293 @@
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans&family=Poppins&display=swap');
+
+/* Default style webpage */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+/* webpage default tags style  */
+
+.paragraph-style{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.button-style{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    padding: 20px 43px;
+    cursor: pointer;
+}
+
+
+
+.similar-title-style{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.similar-h5-style{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.similar-h6-style{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* header part desgin desgin */
+
+.header{
+    background-color: #E554731A;
+}
+
+.header-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 97px;
+}
+
+.banner-text h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+    width: 708px;
+}
+
+.banner-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0px;
+}
+
+.banner-img img{
+    margin-bottom: -4px;
+    padding-top: 50px;
+}
+
+
+
+/* Our Featured Flowers section desgin */
+.our-featured-Flowers{
+    padding: 170px 0px 128px 0px;
+}
+.our-featured-img-card{
+    display: flex;
+    gap: 26px;
+    
+}
+
+.img-card-text{
+    flex-basis: 33.33333333333333%;
+    text-align: center;
+    margin-top: 48px;
+}
+.img-card-text div{
+    height: 515px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 100px 70px 0px;
+    margin-bottom: 32px;
+}
+.img-card-text div img{
+    height: 100%;
+    width: 100%;
+}
+
+.featured-middle-img{
+    padding-bottom: 35px;
+}
+
+
+
+
+.img-card-text .card-tree-1{
+    background-color: #A7216226;
+}
+.img-card-text .card-tree-2{
+    background-color: #0597A026;
+
+}
+.img-card-text .card-tree-3{
+    background-color: #477D1126;
+}
+
+
+/* featured bottom suport delvary section desgin */
+
+.delivary-suport-part{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+    padding: 86px 160px;
+    border-radius: 8px;
+    background: #2727270D;
+    margin-top: 128px;
+}
+
+.delivary-suport{
+    text-align: center;
+    flex-basis: 33.33333333333333%;
+}
+.delivary-suport img{
+    margin-bottom: 24px;
+}
+
+
+
+/* seal and deal section desgin */
+
+.sale-and-deal-section{
+    border-radius: 8px;
+    background: #E554730D;
+}
+
+.sale-deal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 186px;
+}
+
+.sale-deal-img{
+    padding: 100px 0px;
+}
+
+.sale-off{
+    color: #E55473;
+}
+
+
+/* instragram and leatest deal part desgin */
+
+.instagram-leatest-deal-4{
+    padding: 128px 0px;
+}
+.instagram-top-text{
+    text-align: center;
+}
+
+.instagram-flower-card{
+    display: flex;
+    gap: 24px;
+    
+    
+}
+.instagram-flower-card img{
+    width: 100%;
+    
+}
+
+
+.leatest-deal-contact{
+    background-image: url(/images/1234567890.png);
+    padding: 122px 287px;
+    margin-top: 128px;
+}
+.contact-form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.contact-form input{
+    width: 700px;
+    height: 64px;
+    outline: none;
+    border: none;
+    padding: 0px 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal
+    
+}
+
+
+/* footer desgin */
+
+.footer{
+    background: #111010;
+    padding: 128px 530px;
+}
+
+.flower-shop-footer{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.flower-shop-footer span{
+    color: #FFFFFF;
+}
+
+.flower-shop-footer h2{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* desgin complete */
+
+
+
+
+
+
+
+
