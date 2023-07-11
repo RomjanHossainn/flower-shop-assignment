@@ -212,7 +212,7 @@
 .instagram-flower-card{
     display: flex;
     gap: 24px;
-    
+    justify-content: space-evenly;
     
 }
 .instagram-flower-card img{
