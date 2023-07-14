@@ -392,6 +392,11 @@
         font-size: 40px;
     }
 
+    .banner-text p{
+        width: 100%;
+        font-size: 17px;
+    }
+
     /* futured section responsive */
 
     .our-featured-img-card{
@@ -435,7 +440,7 @@
     /* .contact-form */
 
     .leatest-deal-contact{
-        padding: 20px 20px;
+        padding: 73px 33px;
         
     }
 
